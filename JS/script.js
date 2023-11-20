@@ -38,3 +38,14 @@ changeValues(function() {
 
 console.log("first_number =", first_number);
 console.log("second_number =", second_number);
+
+// 3. Using a Variable
+let first_number = 15;
+let second_number = 17;
+
+let temp = first_number;
+first_number = second_number;
+second_number = temp;
+
+console.log("first_number =", first_number);
+console.log("second_number =", second_number);
